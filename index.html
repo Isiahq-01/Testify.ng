@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Weather Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <div class="top-bar">
+      <div class="logo"><span>☀️</span> Weather Now</div>
+      <button class="unit-btn">Units ▾</button>
+    </div>
+
+    <div class="hero">
+      <h1>How's the sky looking today?</h1>
+      <div class="search-box">
+        <input type="text" placeholder="Search for a place..." />
+        <button>Search</button>
+      </div>
+    </div>
+
+    <div class="main-grid">
+      <div>
+        <div class="weather-card">
+          <div>
+            <h2>Berlin, Germany</h2>
+            <p>Tuesday, Aug 5, 2025</p>
+          </div>
+          <div class="temp-box">
+            <span class="icon">☀️</span>
+            <h1>20°</h1>
+          </div>
+        </div>
+
+        <div class="stats">
+          <div class="stat-card">
+            <p>Feels Like</p>
+            <h3>18°</h3>
+          </div>
+          <div class="stat-card">
+            <p>Humidity</p>
+            <h3>46%</h3>
+          </div>
+          <div class="stat-card">
+            <p>Wind</p>
+            <h3>14 km/h</h3>
+          </div>
+          <div class="stat-card">
+            <p>Precipitation</p>
+            <h3>0 mm</h3>
+          </div>
+        </div>
+
+        <div class="forecast">
+          <h3>Daily forecast</h3>
+          <div class="forecast-grid">
+            <div class="day-card"><h4>Tue</h4><span class="icon">🌧️</span><p>20° / 14°</p></div>
+            <div class="day-card"><h4>Wed</h4><span class="icon">🌧️</span><p>21° / 15°</p></div>
+            <div class="day-card"><h4>Thu</h4><span class="icon">☀️</span><p>24° / 14°</p></div>
+            <div class="day-card"><h4>Fri</h4><span class="icon">⛅</span><p>25° / 13°</p></div>
+            <div class="day-card"><h4>Sat</h4><span class="icon">⛈️</span><p>21° / 15°</p></div>
+            <div class="day-card"><h4>Sun</h4><span class="icon">🌧️</span><p>25° / 16°</p></div>
+            <div class="day-card"><h4>Mon</h4><span class="icon">🌫️</span><p>24° / 15°</p></div>
+          </div>
+        </div>
+      </div>
+      <div class="hourly-panel">
+        <div class="hourly-header">
+          <h3>Hourly forecast</h3>
+          <button>Tuesday ▾</button>
+        </div>
+
+        <div class="hour-item"><span>☁️ 3 PM</span><span>20°</span></div>
+        <div class="hour-item"><span>🌤️ 4 PM</span><span>20°</span></div>
+        <div class="hour-item"><span>☀️ 5 PM</span><span>20°</span></div>
+        <div class="hour-item"><span>☁️ 6 PM</span><span>19°</span></div>
+        <div class="hour-item"><span>🌧️ 7 PM</span><span>18°</span></div>
+        <div class="hour-item"><span>🌫️ 8 PM</span><span>18°</span></div>
+        <div class="hour-item"><span>🌧️ 9 PM</span><span>17°</span></div>
+        <div class="hour-item"><span>☁️ 10 PM</span><span>17°</span></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
